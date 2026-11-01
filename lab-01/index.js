@@ -25,7 +25,9 @@ app.get('/time', (req, res) => {
 app.use((req, res) => {
     res.status(404).send('404 - Route not found');
 });
-
+app.get('/', (req, res) => {
+  res.send('Hello, World! Server is running.');
+});
 // Start Express server
 app.listen(3000, () => {
     console.log('Express server running on port 3000');
