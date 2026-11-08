@@ -284,7 +284,7 @@ app.delete("/books/:id", (req, res) => {
 // Handle unknown routes
 app.use((req, res) => {
     res.status(404).json({
-        message: "Route not found"
+        message: "Server is running successfully!"
     });
 });
 
