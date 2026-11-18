@@ -158,7 +158,9 @@ app.post("/login", (req, res) => {
     );
 });
 
-
+app.get('/', (req, res) => {
+  res.json({ message: "Lab 4 Server is running: Registration, Login and JWT API" });
+});
 
 // Start server
 app.listen(PORT, () => {
