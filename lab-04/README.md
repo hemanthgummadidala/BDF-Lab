@@ -6,8 +6,7 @@
 
 ## Live Link
 
-Deployment: Pending
-
+Deployment: [https://bdf-lab-04-dmvj.onrender.com](https://bdf-lab-04-dmvj.onrender.com)
 ## Objective
 
 To implement user registration and login functionality using Node.js, Express.js, SQLite, bcrypt password hashing and JSON Web Tokens (JWT) for authentication.
